@@ -1,0 +1,110 @@
+header {
+    background-color: #000080;
+}
+
+#cabecalho .navbar-brand {
+    color: #fff;
+    font-style: italic;
+    text-decoration: underline #FFA500;
+}
+
+#cabecalho .navbar-brand i,
+#cabecalho .nav .nav-link i {
+    color: #FFA500;
+}
+
+#cabecalho .nav .nav-link.active,
+#cabecalho .nav .nav-link.active i {
+    background-color: #FFA500;
+    color: #000080;
+}
+
+#cabecalho .nav .nav-link i {
+    color: #FFA500;
+}
+
+header .nav-link {
+    color: #fff;
+}
+
+header .nav-link:hover {
+    color: #FFA500;
+}
+
+header button.navbar-toggler {
+    color: #FFA500;
+}
+
+header button span {
+    border-color: #FFA500;
+}
+
+.carousel {
+    background-color: black;
+}
+
+.carousel-item video{
+    height: 720px;
+    min-width: 100%;
+}
+
+#exploracao-planetaria{
+    background-color:   
+}
+
+.title {
+    font-style: italic;
+    text-decoration: underline #FFA500;
+    color: #000080;
+}
+
+.title > i {
+    color: #FFA500;
+}
+
+nav.nav {
+    justify-content: space-between;
+}
+
+#exploracao-planetaria nav.nav-pills .nav-link.active {
+    background-color: #FFA500;
+    color: #000080;
+}
+
+#exploracao-planetaria nav.nav-pills .nav-link {
+    color: #000080;
+}
+
+hr {
+    color: #000080;
+}
+
+
+hr.hr-card {
+    color: #FFA500;
+}
+
+
+@media (max-width: 767px) {
+    .carousel-item video {
+        height: 280px;
+    }
+
+    #exploracao-planetaria nav.nav {
+        flex-direction: column;
+    }
+
+    #exploracao-planetaria .card {
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+    #exploracao-planetaria .card {
+        margin-bottom: 10px;
+    }
+
+    #exploracao-planetaria nav.nav {
+        flex-direction: column;
+    }
+}
