@@ -75,15 +75,22 @@ nav.nav {
     color: #000080;
 }
 
+#exploracao-planetaria {
+    background-color: #ffd69975;
+}
+
 hr {
     color: #000080;
 }
-
 
 hr.hr-card {
     color: #FFA500;
 }
 
+
+.card img {
+    max-height: 500px;
+}
 
 @media (max-width: 767px) {
     .carousel-item video {
@@ -99,10 +106,11 @@ hr.hr-card {
     }
 }
 
-@media (min-width: 767px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: 990px) {
     #exploracao-planetaria .card {
         margin-bottom: 10px;
     }
+
 
     #exploracao-planetaria nav.nav {
         flex-direction: column;
