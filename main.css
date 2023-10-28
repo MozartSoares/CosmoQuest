@@ -1,20 +1,24 @@
-header {
+header,
+footer {
     background-color: #000080;
 }
 
-#cabecalho .navbar-brand {
+#cabecalho .navbar-brand,
+footer h6{
     color: #fff;
     font-style: italic;
     text-decoration: underline #FFA500;
 }
 
 #cabecalho .navbar-brand i,
-#cabecalho .nav .nav-link i {
+#cabecalho .nav .nav-link i,
+footer i {
     color: #FFA500;
 }
 
 #cabecalho .nav .nav-link.active,
-#cabecalho .nav .nav-link.active i {
+#cabecalho .nav .nav-link.active i,
+#botao-envio {
     background-color: #FFA500;
     color: #000080;
 }
@@ -44,12 +48,12 @@ header button span {
 }
 
 .carousel-item video{
-    height: 720px;
+    height: 640px;
     min-width: 100%;
 }
 
 #exploracao-planetaria{
-    background-color:   
+    background-color: #ffd699a5;
 }
 
 .title {
@@ -75,10 +79,6 @@ nav.nav {
     color: #000080;
 }
 
-#exploracao-planetaria {
-    background-color: #ffd69975;
-}
-
 hr {
     color: #000080;
 }
@@ -87,11 +87,94 @@ hr.hr-card {
     color: #FFA500;
 }
 
-
 .card img {
     max-height: 500px;
 }
 
+#noticias-espaciais {
+    background-color: #add8e65c;
+}
+
+#noticias-espaciais  img {
+    max-height: 266px;
+}
+
+#galeria {
+    background-color: #ffd699a5;
+    margin-bottom: 10px;
+}
+
+#galeria .col-sm-6 {
+    position: relative;
+}
+
+.col-sm-6 img {
+    border: 1px solid #FFC008;
+}
+
+.overlay {
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    left: 1;
+    width: auto;
+    opacity: 0;
+    transition: all ease .5s;
+}
+
+.overlay a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#galeria .col-sm-6:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#fale-conosco {
+    background-color: #add8e65c;
+    margin-top: 10px;
+}
+
+#botao-envio:hover {
+    background-color: #ffa600c5 ;
+}
+
+textarea {
+    resize: none;
+}
+
+.form-check-label,
+#fale-conosco p {
+    text-decoration: none;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.footer-notes {
+    color: #FFA500;
+    text-decoration: none;
+}
+
+footer h6 {
+    text-decoration: none;
+}
 @media (max-width: 767px) {
     .carousel-item video {
         height: 280px;

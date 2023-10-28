@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="main.css">
@@ -33,26 +34,26 @@
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#exploracao-planetaria" class="nav-link ">
+                        <a href="#exploracao-planetaria" class="nav-link">
                             <i class="fas fa-globe"></i>
                             Exploração Planetária
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#" class="nav-link ">
+                        <a href="#noticias-espaciais" class="nav-link">
                             <i class="fas fa-newspaper"></i>
                             Notícias Espaciais
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#" class="nav-link ">
+                        <a href="#galeria" class="nav-link">
                             <i class="fas fa-photo-video"></i></i>
                             Galeria
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#" class="nav-link ">
-                            <i class="bi bi-chat-right-text me-1"></i>
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-right-text "></i>
                             Fale conosco
                         </a>
                     </li>
@@ -69,7 +70,7 @@
                             src="videos/world_-_2 (720p).mp4"></video>
                         <div class="carousel-caption" data-bs-theme="dark">
                             <h4>Terra</h4>
-                            <p>Nosso lar azul, a Terra, é um oásis de vida no vasto cosmos. Com paisagens
+                            <p class="">Nosso lar azul, a Terra, é um oásis de vida no vasto cosmos. Com paisagens
                                 diversificadas, oceanos profundos e uma atmosfera que sustenta a vida, é um planeta
                                 verdadeiramente único</p>
                         </div>
@@ -106,21 +107,24 @@
                 </div>
             </div>
         </section>
-        <section id="exploracao-planetaria">
+        <section id="exploracao-planetaria" class="py-4">
             <div class="container">
                 <div class="row">
-                    <h2 class="text-center title fw-bold my-4"><i class="fas fa-globe"></i> Exploração
+                    <h2 class="text-center title fw-bold"><i class="fas fa-globe"></i> Exploração
                         <span>planetária</span>
                     </h2>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
                         <nav class="nav nav-pills nav-cardapio">
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#vizinhos-planetarios" class="nav-link fw-bold active">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#vizinhos-planetarios"
+                                class="nav-link fw-bold active">
                                 Nossos Vizinhos Planetários</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#gigantes-gasosos" class="nav-link fw-bold">Os
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#gigantes-gasosos"
+                                class="nav-link fw-bold">Os
                                 Gigantes Gasosos</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#planetas-terrestres" class="nav-link fw-bold">Os
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#planetas-terrestres"
+                                class="nav-link fw-bold">Os
                                 Planetas Terrestres</button>
                         </nav>
                     </div>
@@ -132,15 +136,17 @@
                             <div class="row">
                                 <div class="card-group">
                                     <div class="col-lg-4 col-md-12 col-sm-12">
-                                        <div class="card bg-dark text-white border-warning text-center">
+                                        <div class="card bg-dark text-white border-warning h-100 text-center">
                                             <div class="card-header">
                                                 Marte
                                             </div>
-                                            <img class="card-img-top" src="images/marte.jpg" alt="Foto de marte">
+                                            <img class="card-img-top" id="video-marte" src="images/marte.jpg"
+                                                alt="Foto de marte">
                                             <div class="card-body">
                                                 <h2 class="card-title">Marte<br>planeta vermelho</h2>
                                                 <hr class="hr-card">
-                                                <h5 class="card-subtitle"><small>Explore os segredos da superfície marciana e as missões que buscaram desvendá-los.</small>
+                                                <h5 class="card-subtitle"><small>Explore os segredos da superfície
+                                                        marciana e as missões que buscaram desvendá-los.</small>
                                                 </h5>
                                                 <div class="card-footer mt-2">
                                                     <a href="#" class="btn btn-warning mt-2 w-100">Ver mais</a>
@@ -149,7 +155,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-12 col-sm-12">
-                                        <div class="card bg-dark text-white border-warning text-center">
+                                        <div class="card bg-dark text-white border-warning h-100 text-center">
                                             <div class="card-header">
                                                 Júpiter
                                             </div>
@@ -157,7 +163,8 @@
                                             <div class="card-body">
                                                 <h2 class="card-title">Júpiter<br>gigante gasoso</h2>
                                                 <hr class="hr-card">
-                                                <h5 class="card-subtitle"><small>Descubra os mistérios do maior planeta do Sistema Solar e das suas incríveis tempestades</small>
+                                                <h5 class="card-subtitle"><small>Descubra os mistérios do maior planeta
+                                                        do Sistema Solar e das suas incríveis tempestades</small>
                                                 </h5>
                                                 <div class="card-footer mt-2">
                                                     <a href="#" class="btn btn-warning mt-2 w-100">Ver mais</a>
@@ -166,7 +173,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-12 col-sm-12">
-                                        <div class="card bg-dark text-white border-warning text-center">
+                                        <div class="card bg-dark text-white border-warning h-100 text-center">
                                             <div class="card-header">
                                                 Vênus
                                             </div>
@@ -174,7 +181,8 @@
                                             <div class="card-body">
                                                 <h2 class="card-title">Vênus<br>planeta infernal</h2>
                                                 <hr class="hr-card">
-                                                <h5 class="card-subtitle"><small>Conheça o mundo quente e hostil que é Vênus, e as missões que nos ajudaram a entendê-lo.</small>
+                                                <h5 class="card-subtitle"><small>Conheça o mundo quente e hostil que é
+                                                        Vênus, e as missões que nos ajudaram a entendê-lo.</small>
                                                 </h5>
                                                 <div class="card-footer mt-2">
                                                     <a href="#" class="btn btn-warning mt-2 w-100">Ver mais</a>
@@ -187,9 +195,9 @@
                         </div>
                         <div class="tab-pane" id="gigantes-gasosos">
                             <div class="row">
-                                <div class="card-group">                                  
+                                <div class="card-group">
                                     <div class="col-lg-4 col-md-12 col-sm-12">
-                                        <div class="card bg-dark text-white border-warning text-center">
+                                        <div class="card bg-dark text-white border-warning h-100 text-center">
                                             <div class="card-header">
                                                 Saturno
                                             </div>
@@ -197,7 +205,8 @@
                                             <div class="card-body">
                                                 <h2 class="card-title">Saturno<br>senhor dos anéis</h2>
                                                 <hr class="hr-card">
-                                                <h5 class="card-subtitle"><small>Explore e conheça os majestosos anéis de Saturno e as suas grandiosas e fascinantes luas.</small>
+                                                <h5 class="card-subtitle"><small>Explore e conheça os majestosos anéis
+                                                        de Saturno e as suas grandiosas e fascinantes luas.</small>
                                                 </h5>
                                                 <div class="card-footer mt-2">
                                                     <a href="#" class="btn btn-warning mt-2 p-2 w-100">Ver mais</a>
@@ -206,7 +215,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-12 col-sm-12">
-                                        <div class="card bg-dark text-white border-warning text-center">
+                                        <div class="card bg-dark text-white border-warning h-100 text-center">
                                             <div class="card-header">
                                                 Urano
                                             </div>
@@ -214,7 +223,8 @@
                                             <div class="card-body">
                                                 <h2 class="card-title">Urano<br>gigante inclinado</h2>
                                                 <hr class="hr-card">
-                                                <h5 class="card-subtitle"><small>Conheça o planeta Urano que rotaciona de lado e seus anéis não muito conhecidos.</small>
+                                                <h5 class="card-subtitle"><small>Conheça o planeta Urano que rotaciona
+                                                        de lado e seus anéis não muito conhecidos.</small>
                                                 </h5>
                                                 <div class="card-footer mt-2">
                                                     <a href="#" class="btn btn-warning mt-2 p-2 w-100">Ver mais</a>
@@ -223,7 +233,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-12 col-sm-12">
-                                        <div class="card bg-dark text-white border-warning text-center">
+                                        <div class="card bg-dark text-white border-warning h-100 text-center">
                                             <div class="card-header">
                                                 Netuno
                                             </div>
@@ -231,7 +241,8 @@
                                             <div class="card-body">
                                                 <h2 class="card-title">Netuno<br>o reino azul</h2>
                                                 <hr class="hr-card">
-                                                <h5 class="card-subtitle"><small>Mergulhe nas profundezas de Netuno e descubra seus ventos velozes e luas intrigantes.</small>
+                                                <h5 class="card-subtitle"><small>Mergulhe nas profundezas de Netuno e
+                                                        descubra seus ventos velozes e luas intrigantes.</small>
                                                 </h5>
                                                 <div class="card-footer mt-2">
                                                     <a href="#" class="btn btn-warning mt-2 p-2 w-100">Ver mais</a>
@@ -246,7 +257,7 @@
                             <div class="row">
                                 <div class="card-group">
                                     <div class="col-lg-4 col-md-12 col-sm-12">
-                                        <div class="card bg-dark text-white border-warning text-center">
+                                        <div class="card bg-dark text-white border-warning h-100 text-center">
                                             <div class="card-header">
                                                 Mercúrio
                                             </div>
@@ -254,7 +265,8 @@
                                             <div class="card-body">
                                                 <h2 class="card-title">Mercúrio<br>O Planeta Rápido</h2>
                                                 <hr class="hr-card">
-                                                <h5 class="card-subtitle"><small>Conheça o planeta mais próximo do Sol e as suas extremas variações de temperatura.</small>
+                                                <h5 class="card-subtitle"><small>Conheça o planeta mais próximo do Sol e
+                                                        as suas extremas variações de temperatura.</small>
                                                 </h5>
                                                 <div class="card-footer mt-2">
                                                     <a href="#" class="btn btn-warning mt-2 p-2 w-100">Ver mais</a>
@@ -263,7 +275,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-12 col-sm-12">
-                                        <div class="card bg-dark text-white border-warning text-center">
+                                        <div class="card bg-dark text-white border-warning h-100 text-center">
                                             <div class="card-header">
                                                 Terra
                                             </div>
@@ -271,7 +283,8 @@
                                             <div class="card-body">
                                                 <h2 class="card-title">Terra<br>O nosso Lar</h2>
                                                 <hr class="hr-card">
-                                                <h5 class="card-subtitle"><small>Explore o único planeta conhecido a abrigar vida e sua incrível diversidade de ecossistemas.</small>
+                                                <h5 class="card-subtitle"><small>Explore o único planeta conhecido a
+                                                        abrigar vida e sua incrível diversidade de ecossistemas.</small>
                                                 </h5>
                                                 <div class="card-footer mt-2">
                                                     <a href="#" class="btn btn-warning mt-2 p-2 w-100">Ver mais</a>
@@ -280,7 +293,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-12 col-sm-12">
-                                        <div class="card bg-dark text-white border-warning text-center">
+                                        <div class="card bg-dark text-white border-warning h-100 text-center">
                                             <div class="card-header">
                                                 Marte
                                             </div>
@@ -288,7 +301,8 @@
                                             <div class="card-body">
                                                 <h2 class="card-title">Marte <br>Planeta Revisitado</h2>
                                                 <hr class="hr-card">
-                                                <h5 class="card-subtitle"><small>Uma nova perspectiva sobre o intrigante planeta Marte e seus desafios de exploração.</small>
+                                                <h5 class="card-subtitle"><small>Uma nova perspectiva sobre o intrigante
+                                                        planeta Marte e seus desafios de exploração.</small>
                                                 </h5>
                                                 <div class="card-footer mt-2">
                                                     <a href="#" class="btn btn-warning mt-2 p-2 w-100">Ver mais</a>
@@ -303,6 +317,163 @@
                 </div>
             </div>
         </section>
+        <section id="noticias-espaciais" class="py-4">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center title fw-bold"><i class="fas fa-newspaper"></i> Notícias
+                        <span>espaciais</span>
+                    </h2>
+                    <h5 class="text-center title fw-bold">Confira as últimas novidades sobre o universo</h5>
+                </div>
+                <div class="row mt-2 d-md-flex d-sm-block justify-content-between">
+                    <div class="col-md-4 h-100">
+                        <img src="images/sonda.jpg" alt="foto de uma sonda espacial" class="d-block w-100 rounded">
+                        <h3 class="title mt-2">Sonda Espacial Descobre uma Nova Formação Estelar</h3>
+                        <p>Uma sonda espacial recentemente enviada ao espaço profundo capturou imagens surpreendentes de
+                            uma nova formação estelar a milhões de anos-luz da Terra</p>
+                        <a href="#" class="btn-link btn mb-2">Ler a máteria completa</a>
+                    </div>
+                    <div class="col-md-4 h-100">
+                        <img src="images/planeta_novo.jpg" alt="foto de um planeta novo" class="d-block w-100 rounded">
+                        <h3 class="title mt-2">Exoplaneta Abre Possibilidades para Vida Alienígena
+                        </h3>
+                        <p class="">Astrônomos anunciaram a descoberta de um exoplaneta localizado na zona habitável de uma
+                            estrela distante, aumentando as esperanças de encontrar vida além do nosso sistema solar.
+                        </p>
+                        <a href="#" class="btn-link btn mb-2">Ler a máteria completa</a>
+                    </div>
+                    <div class="col-md-4 h-100">
+                        <img src="images/lua.jpg" alt="foto da superfície da lua" class="d-block w-100 rounded">
+                        <h3 class="title mt-2">Missão Lunar Revela Mistérios da Superfície Lunar</h3>
+                        <p class=""> Uma recente missão tripulada à Lua está revelando detalhes fascinantes sobre a geologia e a
+                            composição da superfície lunar.</p>
+                        <a href="#" class="btn-link btn mb-2">Ler a máteria completa</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="galeria" class="py-4">
+            <div class="container mb-4" >
+                <div class="row">
+                    <h2 class="text-center title fw-bold"><i class="fas fa-photo-video"></i>Galeria</h2>
+                    <h5 class="text-center title mt-3 fw-bold">Confira nossa seleção de imagens do espaço em alta qualidade</h5>
+                    <h7 class="text-center title mt-2 fw-bold">clique para ver em tela cheia</h7>
+                </div>
+                <div class="row d-flex flex-start">
+                    <div class="col-sm-6 col-md-4 col-lg-2 mt-2">
+                        <img src="https://images-assets.nasa.gov/image/PIA15985/PIA15985~small.jpg" alt="Foto de evento espacial" class="d-block w-100 h-100 rounded">
+                        <div class="overlay d-block">
+                            <a href="https://images-assets.nasa.gov/image/PIA15985/PIA15985~small.jpg" title="Ver imagem em tela cheia">Ver em tela cheia</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-2 mt-2">
+                        <img src="https://images-assets.nasa.gov/image/PIA20912/PIA20912~thumb.jpg" alt="Foto de evento espacial" class="h-100 d-block w-100 rounded">
+                        <div class="overlay d-block">
+                            <a href="https://images-assets.nasa.gov/image/PIA20912/PIA20912~thumb.jpg" title="Ver imagem em tela cheia">Ver em tela cheia</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-2 mt-2">
+                        <img src="https://images-assets.nasa.gov/image/S65-34635/S65-34635~thumb.jpg" alt="Foto de um astronauta no espaço" class="h-100 d-block w-100 rounded">
+                        <div class="overlay d-block">
+                            <a href="https://images-assets.nasa.gov/image/S65-34635/S65-34635~thumb.jpg" title="Ver imagem em tela cheia">Ver em tela cheia</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-2 mt-2">
+                        <img src="https://images-assets.nasa.gov/image/PIA00342/PIA00342~thumb.jpg" alt="Foto da terra e da lua vistas do espaço" class="h-100 d-block w-100 rounded">
+                        <div class="overlay d-block">
+                            <a href="https://images-assets.nasa.gov/image/PIA00342/PIA00342~thumb.jpg" title="Ver imagem em tela cheia">Ver em tela cheia</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-2 mt-2">
+                        <img src="https://images-assets.nasa.gov/image/PIA04921/PIA04921~thumb.jpg" alt="Foto da Via Láctea" class="h-100 d-block w-100 rounded">
+                        <div class="overlay d-block">
+                            <a href="https://images-assets.nasa.gov/image/PIA04921/PIA04921~thumb.jpg" title="Ver imagem em tela cheia">Ver em tela cheia</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-2 mt-2">
+                        <img src="https://images-assets.nasa.gov/image/behemoth-black-hole-found-in-an-unlikely-place_26209716511_o/behemoth-black-hole-found-in-an-unlikely-place_26209716511_o~thumb.jpg" alt="Foto de evento espacial" class="h-100 d-block w-100 rounded">
+                        <div class="overlay d-block">
+                            <a href="https://images-assets.nasa.gov/image/behemoth-black-hole-found-in-an-unlikely-place_26209716511_o/behemoth-black-hole-found-in-an-unlikely-place_26209716511_o~thumb.jpg" title="Ver imagem em tela cheia">Ver em tela cheia</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="py-4">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center title fw-bold"><i class="bi bi-chat-right-text me-1"></i>Fale conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold title">Seu nome:</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold title">Seu e-mail:</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold title">Seu telefone (opcional):</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold title">Sua mensagem:</label>
+                                <textarea id="mensagem" class="form-control" required ></textarea>
+                            </div>
+                            <div class="form-check form-switch">
+                                <input type="checkbox" class="form-check-input" id="check1">
+                                <label class="form-check-label title fw-bold" for="#check1">Desejo assinar a newsletter e receber novidades via e-mail em primeira mão.</label>
+                            </div>
+                            <button type="submit" id="botao-envio" class="btn mt-2 fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 title">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi title bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 mx-1">
+                                    <a href="#">
+                                        <i class="bi title bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi title bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 title">
+                                <i class="bi bi-cursor-fill"></i>
+                                Visite nossa central
+                            </h3>
+                            <p class="title ">Rua Cosmos 762, Bairro Andrômeda - Curitiba - PR</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <h6>Cosmo Quest <i class="fas fa-rocket"></i> - &copy; todos os direitos reservados</h6>
+                <h6 class="footer-notes">
+                    "Explorando o Cosmos, <br>
+                    Descobrindo o Desconhecido, <br>
+                    Conectando o Universo."</h6>
+            </div>
+        </footer>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
